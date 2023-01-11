@@ -1,0 +1,9 @@
+#flutter pub run flutter_native_splash:create --path=splash_screen/frx/config.yaml --flavor uat_rexelfr
+#flutter pub run flutter_native_splash:create --path=splash_screen/frx/config.yaml --flavor qa_rexelfr
+#flutter pub run flutter_native_splash:create --path=splash_screen/frx/config.yaml --flavor rexelfr
+flutter_native_splash:
+  color: "#ffffff"
+  image: config/splash.png
+
+  android_12:
+    image: config/splash.png
